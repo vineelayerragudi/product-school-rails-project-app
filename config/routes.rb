@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  devise_for :users
+  # devise_for :users
   # This is the home route
   root 'home#index'
   resources :posts
